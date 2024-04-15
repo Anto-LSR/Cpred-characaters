@@ -2,7 +2,7 @@ export const personnages = [
     {
       id: 1,
       name: 'Osef',
-      imageUrl: '/avatars/medtech.jpg'
+      imageUrl: '/images/avatars/medtech.jpg'
     },
     {
       id: 2,
@@ -22,7 +22,7 @@ export const personnages = [
       player: 'Netila',
     },
     {
-      id: 3,
+      id: 4,
       name: 'Simon',
       fullname: 'Simon "GHOST" Riley',
       imageUrl: '/avatars/suifti.jpg',
