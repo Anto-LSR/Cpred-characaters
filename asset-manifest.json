@@ -1,16 +1,23 @@
 {
   "files": {
-    "main.css": "/Cpred-characaters/static/css/main.78458760.css",
-    "main.js": "/Cpred-characaters/static/js/main.51626c27.js",
+    "main.css": "/Cpred-characaters/static/css/main.1afc5a12.css",
+    "main.js": "/Cpred-characaters/static/js/main.41555b94.js",
     "static/media/background.png": "/Cpred-characaters/static/media/background.482e23b34a5ee5239eaf.png",
+    "static/media/suifti.jpg": "/Cpred-characaters/static/media/suifti.50ddb66cb0c9e34599d5.jpg",
+    "static/media/netila.jpg": "/Cpred-characaters/static/media/netila.f05a96d39b8b040c51cf.jpg",
+    "static/media/medtech.jpg": "/Cpred-characaters/static/media/medtech.d9608dd9015cfdb5a990.jpg",
+    "static/media/girl.jpg": "/Cpred-characaters/static/media/girl.75fffc0af21abfe41c17.jpg",
     "static/media/Play-Bold.ttf": "/Cpred-characaters/static/media/Play-Bold.b78f3be6adabf73cde7f.ttf",
     "static/media/GlitchGoblin-2O87v.ttf": "/Cpred-characaters/static/media/GlitchGoblin-2O87v.37ee9c9361643bfc72ea.ttf",
+    "static/media/BlenderProBook.woff2": "/Cpred-characaters/static/media/BlenderProBook.a6763c9ac303d2594633.woff2",
+    "static/media/Cyberpunk.otf": "/Cpred-characaters/static/media/Cyberpunk.0c742b6989b2dc04f6c3.otf",
+    "static/media/Oxanium.woff2": "/Cpred-characaters/static/media/Oxanium.9d0ec1d9a8ace5700975.woff2",
     "index.html": "/Cpred-characaters/index.html",
-    "main.78458760.css.map": "/Cpred-characaters/static/css/main.78458760.css.map",
-    "main.51626c27.js.map": "/Cpred-characaters/static/js/main.51626c27.js.map"
+    "main.1afc5a12.css.map": "/Cpred-characaters/static/css/main.1afc5a12.css.map",
+    "main.41555b94.js.map": "/Cpred-characaters/static/js/main.41555b94.js.map"
   },
   "entrypoints": [
-    "static/css/main.78458760.css",
-    "static/js/main.51626c27.js"
+    "static/css/main.1afc5a12.css",
+    "static/js/main.41555b94.js"
   ]
 }
