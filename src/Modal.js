@@ -29,7 +29,7 @@ const Modal = ({ isOpen, onClose, selectedCharacter }) => {
           data-title="Rôle:"
           id="code2"
         >
-          Solo
+          {selectedCharacter.role}
         </div>
         {/* age */}
         <div
