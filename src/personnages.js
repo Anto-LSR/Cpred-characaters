@@ -3,6 +3,7 @@ import girl from './images/avatars/girl.jpg'
 import suifti from './images/avatars/suifti.jpg'
 import medtech from './images/avatars/medtech.jpg'
 import thanatos from './images/avatars/thanatos.png'
+import trix from './images/avatars/Trix.jpg'
 
 
 export const personnages = [
@@ -40,6 +41,18 @@ export const personnages = [
       origin: 'Europe',
       description: `Jay Gemini, surnommé "J.", a grandi dans la petite couronne avec ses parents, techniciens de corpo. Après leur maladie, il a vécu chez un ami et s'est déterminé à réussir chez les corpos pour éviter d'autres drames. Talentueux homme d'affaires, il a réussi à intégrer une corporation et excelle dans le maniement des armes à feu légères. Il porte un tatouage et une photo de famille sous ses chemises. Ses seules relations proches sont son amie d'enfance et les parents de celle-ci. Malgré une ancienne relation, c'est vers son amie d'enfance qu'il garde une affection particulière.`,
       player: 'Thanatos',
+    },
+    {
+      id: 6,
+      name: 'Trix',
+      fullname: 'Trix Liu',
+      imageUrl: trix,
+      role : 'Fixer',
+      age: '34',
+      origin: 'Asie du sud est',
+      description: `Trix est une fixer originaire d'Asie du Sud-Est qui traine vers l'upper Marina. Son style urbain est flamboyant et tape-à-l'œil. Arrogante et distante, elle n'hésite pas à manipuler pour obtenir ce qu'elle veut. Pour elle, l'argent est roi, et elle est prête à tout pour en accumuler.
+      Sa bague en émeraude n'est pas seulement un symbole de réussite, mais aussi un avertissement de sa dangerosité. Ses ex-amants, tous impliqués dans des situations périlleuses, en témoignent. Chaque choix qu'elle fait est calculé pour la puissance et la richesse. Derrière son apparence séduisante se cache une ambition féroce et une capacité à éliminer ceux qui se mettent en travers de son chemin.`,
+      player: 'Freyja',
     },
     
     // Add more characters as needed
