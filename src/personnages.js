@@ -3,7 +3,7 @@ import girl from './images/avatars/girl.jpg'
 import suifti from './images/avatars/suifti.jpg'
 import medtech from './images/avatars/medtech.jpg'
 import thanatos from './images/avatars/thanatos.png'
-import trix from './images/avatars/Trix.jpg'
+import trix from './images/avatars/trix.jpg'
 
 
 export const personnages = [
@@ -22,8 +22,8 @@ export const personnages = [
     },
     {
       id: 4,
-      name: 'Simon',
-      fullname: 'Simon "GHOST" Riley',
+      name: 'Ghost',
+      fullname: 'GHOST',
       imageUrl: suifti,
       role : 'Solo',
       age: '39',
