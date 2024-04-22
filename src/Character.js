@@ -17,7 +17,7 @@ const Character = ({ character, onClick }) => {
       onClick={handleClick}
     >
       <img className={glitchClass} src={character.imageUrl} alt={character.name} />
-      <label className=" char-label" style={{fontSize: '1.5rem'}}>{character.name}</label>
+      <label className="char-label" style={{fontSize: '1.2rem'}}><b>{character.name}</b></label>
     </div>
   );
 };

@@ -4,6 +4,7 @@ import suifti from './images/avatars/suifti.jpg'
 import medtech from './images/avatars/medtech.jpg'
 import thanatos from './images/avatars/thanatos.png'
 import trix from './images/avatars/trix.jpg'
+import klam from './images/avatars/klam.jpg'
 
 
 export const personnages = [
@@ -53,6 +54,17 @@ export const personnages = [
       description: `Trix est une fixer originaire d'Asie du Sud-Est qui traine vers l'upper Marina. Son style urbain est flamboyant et tape-à-l'œil. Arrogante et distante, elle n'hésite pas à manipuler pour obtenir ce qu'elle veut. Pour elle, l'argent est roi, et elle est prête à tout pour en accumuler.
       Sa bague en émeraude n'est pas seulement un symbole de réussite, mais aussi un avertissement de sa dangerosité. Ses ex-amants, tous impliqués dans des situations périlleuses, en témoignent. Chaque choix qu'elle fait est calculé pour la puissance et la richesse. Derrière son apparence séduisante se cache une ambition féroce et une capacité à éliminer ceux qui se mettent en travers de son chemin.`,
       player: 'Freyja',
+    },
+    {
+      id: 6,
+      name: 'Corentin',
+      fullname: 'Corentin Shiny',
+      imageUrl: klam,
+      role : 'Techie',
+      age: '14',
+      origin: '???',
+      description: `???`,
+      player: 'Klam',
     },
     
     // Add more characters as needed

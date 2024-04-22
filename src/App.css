@@ -32,7 +32,17 @@
   place-items: center;
 }
 
+.character img {
+  transition: all 300ms ease;
+  transform-origin: 50% 50%;
+  width: 100%;
+  
+
+}
+
 .char-label {
+  font-family: 'Oxanium';
+  font-weight: 400;
 }
 
 .grid-child {
@@ -44,13 +54,19 @@
 .character {
   margin-bottom: 10px;
   transition: all 300ms ease;
+  overflow: hidden;
 }
 
 .character:hover {
   transform: scale(1.1);
-  background: black;
-  color: white !important;
+  background: #080a12;
+  
   cursor: pointer;
+}
+
+.character:hover label{
+
+  color:  #ca5c4c;
 }
 
 .modal-overlay {

@@ -4,6 +4,9 @@ const Modal = ({ isOpen, onClose, selectedCharacter }) => {
   if (!isOpen) {
     return null;
   }
+  let nameArray = ['INSO', 'THANA', 'BAN', 'KLAM', 'JUJU', 'NETI', 'EVER'];
+  let randomIndex = Math.floor(Math.random() * nameArray.length);
+  let randomName = nameArray[randomIndex];
 
   return (
     <div className="modal-overlay" onClick={onClose}>
@@ -54,7 +57,7 @@ const Modal = ({ isOpen, onClose, selectedCharacter }) => {
           onClick={onClose}
         >
           Retour
-          <span class="glitchtext">PD INSO</span>
+          <span class="glitchtext">PD {randomName}</span>
           <span class="tag">R25</span>
         </button>
 
