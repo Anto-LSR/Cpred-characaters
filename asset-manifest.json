@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Cpred-characaters/static/css/main.35d98d1a.css",
-    "main.js": "/Cpred-characaters/static/js/main.07ce477a.js",
+    "main.css": "/Cpred-characaters/static/css/main.99413a4e.css",
+    "main.js": "/Cpred-characaters/static/js/main.7802ccbb.js",
     "static/media/background.png": "/Cpred-characaters/static/media/background.482e23b34a5ee5239eaf.png",
     "static/media/suifti.jpg": "/Cpred-characaters/static/media/suifti.50ddb66cb0c9e34599d5.jpg",
     "static/media/thanatos.png": "/Cpred-characaters/static/media/thanatos.cac9e61768634b0b4dd4.png",
@@ -11,16 +11,17 @@
     "static/media/klam.jpg": "/Cpred-characaters/static/media/klam.6e4bd870dc4f11e431f2.jpg",
     "static/media/Play-Bold.ttf": "/Cpred-characaters/static/media/Play-Bold.b78f3be6adabf73cde7f.ttf",
     "static/media/trix.jpg": "/Cpred-characaters/static/media/trix.74c8e24837ec8fa024db.jpg",
+    "static/media/azzuel.jpg": "/Cpred-characaters/static/media/azzuel.1c20f3bf247c4c8456af.jpg",
     "static/media/GlitchGoblin-2O87v.ttf": "/Cpred-characaters/static/media/GlitchGoblin-2O87v.37ee9c9361643bfc72ea.ttf",
     "static/media/BlenderProBook.woff2": "/Cpred-characaters/static/media/BlenderProBook.a6763c9ac303d2594633.woff2",
     "static/media/Cyberpunk.otf": "/Cpred-characaters/static/media/Cyberpunk.0c742b6989b2dc04f6c3.otf",
     "static/media/Oxanium.woff2": "/Cpred-characaters/static/media/Oxanium.9d0ec1d9a8ace5700975.woff2",
     "index.html": "/Cpred-characaters/index.html",
-    "main.35d98d1a.css.map": "/Cpred-characaters/static/css/main.35d98d1a.css.map",
-    "main.07ce477a.js.map": "/Cpred-characaters/static/js/main.07ce477a.js.map"
+    "main.99413a4e.css.map": "/Cpred-characaters/static/css/main.99413a4e.css.map",
+    "main.7802ccbb.js.map": "/Cpred-characaters/static/js/main.7802ccbb.js.map"
   },
   "entrypoints": [
-    "static/css/main.35d98d1a.css",
-    "static/js/main.07ce477a.js"
+    "static/css/main.99413a4e.css",
+    "static/js/main.7802ccbb.js"
   ]
 }
