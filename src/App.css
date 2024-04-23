@@ -36,12 +36,10 @@
   transition: all 300ms ease;
   transform-origin: 50% 50%;
   width: 100%;
-  
-
 }
 
 .char-label {
-  font-family: 'Oxanium';
+  font-family: "Oxanium";
   font-weight: 400;
 }
 
@@ -58,15 +56,23 @@
 }
 
 .character:hover {
-  transform: scale(1.1);
+  /* transform: scale(1.1); */
   background: #080a12;
-  
+
   cursor: pointer;
 }
 
-.character:hover label{
+.character:hover label {
+  color: #ca5c4c;
+}
 
-  color:  #ca5c4c;
+.character:hover div:hover {
+  background-position: top top !important;
+  transform: scale(1.2);
+}
+
+.character div {
+  transition: all 300ms ease;
 }
 
 .modal-overlay {
@@ -114,22 +120,19 @@
   font-family: BlenderProBook;
   font-style: normal;
   font-weight: 400;
-  src: url(/src/fonts/BlenderProBook.woff2)
-    format("woff2");
+  src: url(/src/fonts/BlenderProBook.woff2) format("woff2");
 }
 
 @font-face {
   font-family: Oxanium;
   font-style: normal;
   font-weight: 400;
-  src: url(/src/fonts/Oxanium.woff2)
-    format("woff2");
+  src: url(/src/fonts/Oxanium.woff2) format("woff2");
 }
 
 @font-face {
   font-family: Cyberpunk;
-  src: url(/src/fonts/Cyberpunk.otf)
-    format("opentype");
+  src: url(/src/fonts/Cyberpunk.otf) format("opentype");
 }
 /*#endregion*/
 

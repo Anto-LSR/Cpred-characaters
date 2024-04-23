@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const Character = ({ character, onClick }) => {
   const handleClick = () => {
@@ -10,14 +10,31 @@ const Character = ({ character, onClick }) => {
 
   // Calculer la classe pour l'élément <img>
   const glitchClass = `cyber-glitch-${Math.round(randomNum)}`;
-  
+
   return (
-    <div 
+    <div
       className="cyber-tile fg-black bg-bordeau mr-4 inline-block vt-bot character "
       onClick={handleClick}
     >
-      <img className={glitchClass} src={character.imageUrl} alt={character.name} />
-      <label className="char-label" style={{fontSize: '1.2rem'}}><b>{character.name}</b></label>
+      <div
+        style={{
+          backgroundImage: `url(${character.imageUrl})`,
+          minHeight: "400px",
+          backgroundSize: "cover",
+          backgroundRepeat: "no-repeat",
+          backgroundPosition: character.imagePosition ?? "center",
+        }}
+      >
+        <label className="char-label-inset" style={{ fontSize: "1.2rem", display: 'none' }}>
+          <b>{character.name}</b>
+        </label>
+      </div>
+      {/* <img className={glitchClass} src={character.imageUrl} alt={character.name} /> */}
+      <div>
+        <label className="char-label" style={{ fontSize: "1.2rem" }}>
+          <b>{character.name}</b>
+        </label>
+      </div>
     </div>
   );
 };
