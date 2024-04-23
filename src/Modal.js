@@ -17,7 +17,7 @@ const Modal = ({ isOpen, onClose, selectedCharacter }) => {
         <h2 className="bg-bordeau cyber-razor-top cyber-razor-bottom">
           {selectedCharacter.fullname}
         </h2>
-        <img style={{marginTop: '10px'}} src={selectedCharacter.imageUrl}></img>
+        <img style={{marginTop: '10px', maxHeight:'400px', width: 'auto'}} src={selectedCharacter.imageUrl}></img>
         {/* owner */}
         <div
           class="code-block bg-white flex-between"
