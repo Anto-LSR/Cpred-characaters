@@ -75,9 +75,7 @@ export const personnages = [
       role : 'Medtech',
       age: '45',
       origin: 'Japon',
-      description: `Né dans une grande précarité, il est vendu à un gang par ses parents endettés. À 10 ans, lors d'une fusillade, il sauve le chef du gang en dépit de sa blessure par balle et de ses implants endommagés. Malgré son jeune âge, il parvient à le soigner avec les moyens du bord. En gratitude, le chef l'adopte et finance ses études de médecine, le poussant à devenir un médtech talentueux, mais principalement au service du gang.
-
-      Il voue une loyauté sans faille au chef du gang. Malgré ses efforts pour contrecarrer une tentative d'assassinat contre ce dernier, il échoue et voit son frère adoptif mourir entre ses bras. Trahi par son gang, désormais aux mains de ses adversaires, il fuit en emportant le strict nécessaire. Tenté de quitter définitivement Night City, il choisit plutôt de plonger dans les bas-fonds, conscient que son ennemi ne le laissera jamais en paix et qu'il devra le vaincre pour assurer sa survie.`,
+      description: `Né dans la précarité et vendu à un gang par ses parents, il sauve le chef lors d'une fusillade à 10 ans. Devenu médtech grâce à lui, il voue une loyauté sans faille au chef. Malgré ses efforts pour contrecarrer un assassinat, il échoue et voit son frère adoptif mourir. Trahi, il choisit de rester à Night City et se prépare à affronter ses ennemis pour assurer sa survie.`,
       player: 'Azzuel',
       imagePosition : 'top'
     },
